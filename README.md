@@ -37,4 +37,4 @@ npm run dev
 ### Links
 
  - NiiNav uses [NiiVue](https://github.com/niivue/niivue) for visualization.
- - NiiNav uses [niimath WebAssembly](https://github.com/niivue/niivue-niimath).
+ - NiiNav uses [niimath WebAssembly](https://github.com/niivue/niivue-niimath) as described in [this article](https://apertureneuro.org/article/94384-niimath-and-fslmaths-replication-as-a-method-to-enhance-popular-neuroimaging-tools).
