@@ -29,7 +29,7 @@ You can host your own instance locally, allowing you to extend this distribution
 
 ```
 git clone https://github.com/neurolabusc/niinav
-cd niivue-niinav
+cd niinav
 npm install
 npm run dev
 ```
