@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./favicon.ico" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>NiiNav</title>
+    <link rel="stylesheet" href="./niivue.css" />
+  </head>
+  <body>
+    <header>
+      <label for="meshLevel">Double Click</label>
+      <select id="meshLevel" disabled>
+        <option>Move Fiducials</option>
+        <option>Move Stimulation Site</option>
+      </select>
+      <button id="saveButton">Save</button>
+      <label for="clipCheck">Clip Plane</label>
+      <input type="checkbox" id="clipCheck" unchecked />
+      <button id="aboutButton">About</button>
+      <div id="loadingCircle" class="loading-circle hidden"></div>
+    </header>
+    <main>
+      <canvas id="gl"></canvas>
+    </main>
+    <footer id="intensity">&nbsp;</footer>
+    <script type="module" src="./main.js"></script>
+    </body>
+</html>
